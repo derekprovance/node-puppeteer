@@ -1,4 +1,4 @@
-FROM derekprovance/docker-puppeteer
+FROM derekprovance/chrome-headless
 
 USER root
 COPY . /app
